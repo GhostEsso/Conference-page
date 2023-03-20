@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: light-Lato;
+    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+  }
+
+  @media only screen and (max-width: 768px) {
+    .a-more {
+        display: flex;
+        padding: 25px 10px;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(162, 162, 162);
+    }
+
+    .m-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 21px 21px;
+    }
+
+    .m-details h3 {
+        font-family: 'light-Lato', sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+
+    .m-details span {
+        line-height: 1px;
+        padding-bottom: 10px;
+        border: 1px solid #ec5242;
+    }
+
+    .m-details p {
+        line-height: 20px;
+        font-size: 14px;
+        text-align: center;
+  }
+
+  .m-logo {
+    border: 1px solid rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+  }
+
+  .m-logo img {
+    width: 45%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .p-summits {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 10px;
+    justify-content: center;
+  }
+
+  .p-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    font-family: 'light-Lato', sans-serif;
+  }
+
+  .p-heading h3 {
+    font-family: 'light-Lato', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: -5px;
+  }
+
+  .p-heading span {
+    line-height: 10px;
+    padding-bottom: 10px;
+    color: #ec5141;
+    width: 20%;
+  }
+
+  .p-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 10px;
+  }
+
+  .image-card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    position: relative;
+  }
+
+  .details-image {
+    position: absolute;
+    justify-content: center;
+    color: white;
+    background: rgba(199, 33, 33, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-layout {
+    width: 100%;
+    font-family: light-Lato, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-card1 img {
+    width: 100%;
+  }
+}

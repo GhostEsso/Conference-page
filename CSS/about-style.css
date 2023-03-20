@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+  
+@font-face {
+    font-family: light-Lato;
+    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+}
+  
+@font-face {
+    font-family: coco;
+    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Ubuntu-B.ttf);
+}
+
+.abt {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+    width: 100%;
+    background: url(/images/texture.jpg), #f5f5f5;
+    background-size: cover;
+    font-family: light-Lato, sans-serif;
+}
+
+.a-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-head h1 {
+    line-height: 30px;
+    font-family: 'Cocogoose-trial', sans-serif;
+    color: #ec5141;
+    font-weight: 100;
+    width: 90%;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.add p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.a-head h6 {
+    line-height: 10px;
+    color: #ec5242;
+    font-size: 20px;
+}
+
+.a-paragraph {
+    text-align: justify;
+    border: 4px solid white;
+    font-family: 'light-Lato', sans-serif;
+    padding: 15px;
+    letter-spacing: -1px;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 1px 1px 10px rgb(117, 116, 117);
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add address {
+    text-align: center;
+    text-decoration: underline;
+}
