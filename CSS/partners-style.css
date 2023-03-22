@@ -1,0 +1,185 @@
+@font-face {
+  font-family: las-Lato;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Light.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.f-partner {
+  display: flex;
+  flex-direction: column;
+  background-color: #272a32;
+  color: white;
+  padding: 5px 0;
+  justify-content: center;
+}
+
+.p-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-heading span {
+  color: #ec5141;
+  text-align: center;
+  width: 10%;
+  height: 1%;
+  line-height: 5%;
+  padding-bottom: 20px;
+}
+
+.p-heading h2 {
+  font-family: las-Lato, sans-serif;
+  text-align: center;
+  color: #8c8c8c;
+  font-weight: 300;
+  font-size: 28px;
+  padding-top: 30px;
+}
+
+.p-details {
+  padding-top: 20px;
+  color: #8c8c8c;
+  padding-bottom: 30px;
+}
+
+.p-details ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.p-details ul li {
+  padding: 0 10px;
+}
+
+.p-details ul li a {
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 50px;
+  color: #8c8c8c;
+}
+
+.footer {
+  display: flex;
+  color: #aca4a4;
+  flex-direction: row;
+  padding: 30px 100px;
+  background-color: black;
+}
+
+.footerh {
+  display: flex;
+  color: #2b2829;
+  flex-direction: row;
+  padding: 30px 100px;
+  background-color: #f2f2f2;
+}
+
+.f-details {
+  text-align: start;
+  padding-left: 5px;
+}
+
+.f-details h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.f-details p {
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.f-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 59vw;
+}
+
+.f-logo h4 {
+  line-height: 18px;
+  font-size: 30px;
+  font-family: light-Lato, sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+.f-logo h5 {
+  padding-right: 5px;
+  line-height: 25px;
+  border-radius: 50%;
+  border: 2px solid rgb(182, 165, 165);
+  text-align: center;
+  font-size: 20px;
+  padding-left: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .partner-details {
+    padding: 0;
+  }
+
+  .partner-details ul {
+    display: flex;
+    padding: 0;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    padding: 20px 10px;
+    justify-content: center;
+  }
+
+  .footer-details p {
+    display: none;
+  }
+
+  .footer-logo h4 {
+    line-height: 15px;
+    font-size: 14px;
+    font-family: light-Lato, sans-serif;
+    font-weight: 900;
+    padding: 0 2px;
+  }
+
+  .footer-details h5 {
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 2px;
+  }
+
+  .footer-partner {
+    padding: 15px 0;
+  }
+
+  .footer-hide {
+    display: none;
+  }
+
+  .f-logo h4 {
+    color: #272a32;
+  }
+
+  .f-logo h5 {
+    color: #2b2829;
+  }
+
+  .f-details {
+    color: #2b2829;
+  }
+}
