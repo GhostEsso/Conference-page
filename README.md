@@ -30,7 +30,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [xGen Conference] <a name="about-project"></a>
+# 📖 [CC ENVIRONNEMENT GLOBAL Conference] <a name="about-project"></a>
 
 > Hello , This is my first project and its a conference website.
 
@@ -148,6 +148,8 @@ If you appreciate my startup Portfolio project, please feel free to comment or f
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+This project was inspired and originally designed by [Cindy Shin](https://www.behance.net/adagio07) on behance.
 
 I would like to thank you All Microverse community.
 
