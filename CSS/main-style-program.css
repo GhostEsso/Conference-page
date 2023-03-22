@@ -145,6 +145,11 @@
     height: 25vh;
   }
 
+  .first-main:hover {
+    color: rgba(255, 255, 255, 0.945);
+    border: 2px solid white;
+  }
+
   .first-main img {
     width: 20%;
     display: flex;
@@ -193,9 +198,5 @@
     color: #ebd1d1;
     font-size: 20px;
     padding-bottom: 25px;
-  }
-
-  .card4 {
-    border: 2px solid white;
   }
 }

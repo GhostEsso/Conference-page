@@ -76,6 +76,7 @@
 
 
 - [Live Demo Link](https://ghostesso.github.io/Conference-page/)
+- [Live Demo Link](https://www.loom.com/share/b45d52e9830a48c9816aa8d529773050)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,9 +96,9 @@ In order to run this project you need:
 1. A good Computer
 2. Having proper knowledge about Css and Html **necessary**
 
-* Live check : https://abbassarwar.github.io/XGen-Conference/
-* git clone https://github.com/AbbasSarwar/XGen-Conference.git
-* cd XGen-Conference
+* Live check : https://ghostesso.github.io/Conference-page/
+* git clone git@github.com:GhostEsso/Conference-page.git
+* cd Conference-page
 * Go live through in VS code for further.
 * Here we Go....
 
