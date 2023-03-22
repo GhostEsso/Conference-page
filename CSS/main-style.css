@@ -34,11 +34,11 @@
     line-height: 40px;
     font-family: 'Cocogosse-trial', sans-serif;
     background-image: linear-gradient(to right, #7a170c, #3b1d11, #ec5141, #ec5141, #ec5141, #ec5141);
-     /* stylelint-disable */
-     -webkit-background-clip: text;
-     -moz-background-clip: text;
-     background-clip: text;
-     /* stylelint-enable */
+      /* stylelint-disable */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+  /* stylelint-enable */
     color: transparent;
     font-weight: 1000;
     width: 100%;
@@ -118,7 +118,7 @@
     color: #ec5141;
     font-size: 25px;
     font-family: 'light-Lato', sans-serif;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 25px;
   }
 
@@ -131,10 +131,10 @@
     font-family: "Cocogoose-trial", sans-serif;
     background-image: linear-gradient(to right, #ec5141, #3b1d11, #ec5141, #ec5141, #ec5141, #ec5141);
      /* stylelint-disable */
-     -webkit-background-clip: text;
-     -moz-background-clip: text;
-     background-clip: text;
-     /* stylelint-enable */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    /* stylelint-enable */
     color: transparent;
     font-weight: 500;
     font-size: 66px;
