@@ -1,98 +1,201 @@
 @font-face {
-    font-family: light-Lato;
-    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+  font-family: light-Lato;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    background: url(/images/pattern_bg\ .png);
+    background-color: #2d2e30;
+    padding: 30px 15px;
+    font-family: 'light-Lato', sans-serif;
+    font-weight: 100;
+    background-repeat: repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
   }
-  
-  * {
+
+  .h-main span {
+    border: 1px solid #ce4132;
+    width: 45px;
+    margin-bottom: 30px;
+  }
+
+  .lecture {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    width: 40%;
+  }
+
+  .lecture i {
+    font-size: 30px;
+    color: white;
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
   }
 
-  @media only screen and (max-width: 768px) {
-    .main {
-        background-color: rgb(207, 146, 146);
-        padding: 30px 15px;
-        font-family: light-Lato, sans-serif;
-        font-weight: 100;
-        background: url(/images/black-background.jpg);
-        background-size: cover;
-        color: white;
-        display: flex;
-        flex-direction: column;
-    }
+  .lecture h3 {
+    color: #ec5242;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 900;
+    line-height: 20px;
+    width: 60%;
+  }
 
-    .h-main span {
-        border: 1px solid #ce4132;
-        width: 45px;
-        margin-bottom: 30px;
-    }
+  .first-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3c3f46;
+    padding: 10px 10px;
+    height: 100%;
+    font-family: 'light-Lato', sans-serif;
+  }
 
-    .lecture {
-        display: flex;
-        align-items: center;
-        padding-right: 15px;
-        width: 40%;
-    }
+  .first-paragraph {
+    display: flex;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: start;
+    font-size: 15px;
+    width: 50%;
+  }
 
-    .lecture i {
-        font-size: 30px;
-        color: white;
-        padding: 0;
-    }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    margin-bottom: 11px;
+  }
 
-    .lecture h3 {
-        color: #ec5242;
-        font-size: 20px;
-        padding-left: 5px;
-        font-weight: 900;
-        line-height: 20px;
-        width: 60%;
+  .card5 {
+    padding-top: 0;
+  }
 
-    }
+  .b-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
 
-    .first-main {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background-color: #3c3f46;
-        padding: 10px 10px;
-        height: 100%;
-        font-family: 'light-Lato', sans serif;
-    }
+  .b-main {
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+    transition: 0.5s;
+    padding: 20px 25px;
+  }
 
-    .first-paragraph {
-        display: flex;
-        padding-top: 10px;
-        text-align: start;
-        font-size: 15px;
-        padding: 10px;
-        width: 50%;
-    }
-    .card1, .card2, .card3, .card4, .card5 {
-        margin-bottom: 11px;
-    }
+  .b-main:hover {
+    background-color: white;
+    color: #000;
+  }
 
-    .b-container {
-        display: flex;
-        justify-content: center;
-        padding-top: 25px;
-    }
-    
-    .b-main {
-        background-color: #ec5242;
-        color: #fff;
-        border: none;
-        transition: 0.5s;
-        padding: 20px 25px;
-    }
+  .b-m-desk {
+    display: none;
+  }
+}
 
-    .b-main:hover {
-        background-color: white;
-        color: #000;
-    }
+@media only screen and (min-width: 769px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'light-Lato', sans-serif;
+    font-weight: 100;
+    background: url(/images/pattern_bg\ .png);
+    background-repeat: repeat;
+    background-color: #14161b;
+    color: white;
+    padding: 50px 130px;
+  }
 
-    .b-m-desk {
-        display: none;
-    }     
+  .h-main {
+    padding: 60px;
+  }
+
+  .h-main span {
+    width: 5%;
+    height: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ec5141;
+  }
+
+  .big-main {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    padding-bottom: 60px;
+  }
+
+  .first-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3c3f46;
+    height: 25vh;
+  }
+
+  .first-main img {
+    width: 20%;
+    display: flex;
+    align-self: center;
+    padding-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .lecture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .lecture i {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+  }
+
+  .lecture h3 {
+    color: #ec5141;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .first-paragraph {
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .b-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .b-main {
+    display: none;
+  }
+
+  .b-m-desk {
+    color: #ebd1d1;
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+
+  .card4 {
+    border: 2px solid white;
+  }
 }

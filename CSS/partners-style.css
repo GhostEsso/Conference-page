@@ -1,31 +1,31 @@
 @font-face {
-    font-family: las-Lato;
-    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Light.ttf);
+  font-family: las-Lato;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Light.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.footer-partner {
+.f-partner {
   display: flex;
   flex-direction: column;
   background-color: #272a32;
   color: white;
-  padding: 5Opx 0;
+  padding: 5px 0;
   justify-content: center;
 }
 
-.partner-heading {
+.p-heading {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.partner-heading span {
+.p-heading span {
   color: #ec5141;
   text-align: center;
   width: 10%;
@@ -34,61 +34,71 @@
   padding-bottom: 20px;
 }
 
-.partner-heading h2 {
+.p-heading h2 {
   font-family: las-Lato, sans-serif;
   text-align: center;
   color: #8c8c8c;
   font-weight: 300;
   font-size: 28px;
+  padding-top: 30px;
 }
 
-.partner-details {
+.p-details {
   padding-top: 20px;
   color: #8c8c8c;
+  padding-bottom: 30px;
 }
 
-.partner-details ul {
+.p-details ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   list-style: none;
 }
 
-.partner-details ul li {
+.p-details ul li {
   padding: 0 10px;
 }
 
-.partner-details ul li a {
+.p-details ul li a {
   text-decoration: none;
   line-height: 35px;
-  font-size: 30px;
+  font-size: 50px;
   color: #8c8c8c;
 }
 
 .footer {
   display: flex;
-  background-color: #fff;
+  color: #aca4a4;
   flex-direction: row;
   padding: 30px 100px;
-  justify-content: center;
+  background-color: black;
 }
 
-.footer-details {
+.footerh {
+  display: flex;
+  color: #2b2829;
+  flex-direction: row;
+  padding: 30px 100px;
+  background-color: #f2f2f2;
+}
+
+.f-details {
   text-align: start;
   padding-left: 5px;
 }
 
-.footer-details h5 {
+.f-details h5 {
   font-size: 14px;
   line-height: 20px;
 }
 
-.footer-details p {
+.f-details p {
   line-height: 22px;
   font-size: 14px;
 }
 
-.footer-logo {
+.f-logo {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -96,20 +106,21 @@
   width: 59vw;
 }
 
-.footer-logo h4 {
+.f-logo h4 {
   line-height: 18px;
-  font-size: 20px;
+  font-size: 30px;
   font-family: light-Lato, sans-serif;
   font-weight: 900;
+  padding-left: 10px;
 }
 
-.footer-logo h5 {
+.f-logo h5 {
   padding-right: 5px;
   line-height: 25px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid rgb(182, 165, 165);
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
   padding-left: 4px;
 }
 
@@ -159,5 +170,16 @@
   .footer-hide {
     display: none;
   }
+
+  .f-logo h4 {
+    color: #272a32;
+  }
+
+  .f-logo h5 {
+    color: #2b2829;
+  }
+
+  .f-details {
+    color: #2b2829;
+  }
 }
-  

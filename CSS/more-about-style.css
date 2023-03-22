@@ -1,49 +1,49 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: light-Lato;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+}
+
+@media only screen and (max-width: 768px) {
+  .a-more {
+    display: flex;
+    padding: 25px 10px;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(162, 162, 162);
   }
-  
-  @font-face {
-    font-family: light-Lato;
-    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+
+  .m-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 21px;
   }
 
-  @media only screen and (max-width: 768px) {
-    .a-more {
-        display: flex;
-        padding: 25px 10px;
-        flex-direction: column;
-        border-bottom: 1px solid rgb(162, 162, 162);
-    }
+  .m-details h3 {
+    font-family: 'light-Lato', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: -5px;
+  }
 
-    .m-details {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 21px 21px;
-    }
+  .m-details span {
+    color: #ff1900;
+    width: 45px;
+    margin-bottom: 30px;
+  }
 
-    .m-details h3 {
-        font-family: 'light-Lato', sans-serif;
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 25px;
-        text-align: center;
-        margin-bottom: -5px;
-    }
-
-    .m-details span {
-        line-height: 1px;
-        padding-bottom: 10px;
-        border: 1px solid #ec5242;
-    }
-
-    .m-details p {
-        line-height: 20px;
-        font-size: 14px;
-        text-align: center;
+  .m-details p {
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
   }
 
   .m-logo {
@@ -99,15 +99,15 @@
     padding: 5px 10px;
   }
 
-  .image-card1 {
+  .i-card1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:  center;
+    align-items: center;
     position: relative;
   }
 
-  .details-image {
+  .d-image {
     position: absolute;
     justify-content: center;
     color: white;
@@ -116,7 +116,7 @@
     height: 100%;
   }
 
-  .card-layout {
+  .c-layout {
     width: 100%;
     font-family: light-Lato, sans-serif;
     height: 100%;
@@ -126,7 +126,158 @@
     align-items: center;
   }
 
-  .image-card1 img {
+  .i-card1 img {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .a-more {
+    display: flex;
+    padding: 26px 11px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(207, 205, 205);
+  }
+
+  .m-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 121px;
+    font-family: 'light-Lato', sans-serif;
+  }
+
+  .m-details h3 {
+    font-family: 'light-Lato', sans-serif;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: -5px;
+  }
+
+  .m-details h3 br {
+    display: none;
+  }
+
+  .m-details span {
+    padding-bottom: 11px;
+    line-height: 15px;
+    width: 50px;
+    color: #ec5141;
+  }
+
+  .m-details p.mobile {
+    display: none;
+  }
+
+  .m-details p {
+    line-height: 20px;
+    font-size: 14px;
+    padding: 0 120px;
+    text-align: center;
+    color: rgb(105, 101, 101);
+  }
+
+  .m-logo {
+    border: 1px solid rgb(207, 194, 194);
+    display: flex;
+    justify-content: center;
+    height: 18vh;
+    width: 30%;
+  }
+
+  .m-logo img {
+    width: 35%;
+  }
+
+  .p-summits {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 10px;
+    justify-content: center;
+  }
+
+  .p-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    font-family: 'light-Lato', sans-serif;
+  }
+
+  .p-heading h3 {
+    font-family: light-Lato, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: -5px;
+  }
+
+  .p-heading span hr {
+    line-height: 10px;
+    padding-bottom: 10px;
+    color: #ec5242;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+  }
+
+  .p-heading p {
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(105, 101, 101);
+  }
+
+  .p-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .i-card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50vh;
+    height: 25vh;
+  }
+
+  .d-image {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: rgba(199, 34, 34, 0.5);
+    width: 100%;
+    height: 100%;
+  }
+
+  .c-layout {
+    width: 100%;
+    font-family: 'light-Lato', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec524162;
+  }
+
+  .i-card1 img {
+    width: 100%;
+    height: 100%;
   }
 }

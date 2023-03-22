@@ -1,36 +1,37 @@
 * {
-    padding: 0;
-    margin: 0;
-}
-  
-@font-face {
-    font-family: light-Lato;
-    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
-}
-  
-@font-face {
-    font-family: coco;
-    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Ubuntu-B.ttf);
+  padding: 0;
+  margin: 0;
 }
 
-.abt {
+@font-face {
+  font-family: light-Lato;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+}
+
+@font-face {
+  font-family: coco;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Ubuntu-B.ttf);
+}
+
+@media only screen and (max-width: 768px) {
+  .abt {
     display: flex;
     flex-direction: column;
     padding: 50px 10px;
     width: 100%;
-    background: url(/images/texture.jpg), #f5f5f5;
+    background: url(/images/main_big\ .png), center top no-repeat #f5f5f5;
     background-size: cover;
     font-family: light-Lato, sans-serif;
-}
+  }
 
-.a-head {
+  .a-head {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.a-head h1 {
+  .a-head h1 {
     line-height: 30px;
     font-family: 'Cocogoose-trial', sans-serif;
     color: #ec5141;
@@ -39,22 +40,22 @@
     font-size: 1.6em;
     text-align: center;
     margin-top: 12px;
-}
+  }
 
-.add p {
+  .add p {
     text-align: center;
     padding-top: 10px;
     font-size: 14px;
     line-height: 20px;
-}
+  }
 
-.a-head h6 {
+  .a-head h6 {
     line-height: 10px;
     color: #ec5242;
     font-size: 20px;
-}
+  }
 
-.a-paragraph {
+  .a-paragraph {
     text-align: justify;
     border: 4px solid white;
     font-family: 'light-Lato', sans-serif;
@@ -62,16 +63,91 @@
     letter-spacing: -1px;
     background-color: white;
     margin: 20px 0;
-    box-shadow: 1px 1px 10px rgb(117, 116, 117);
-}
+    box-shadow: 1px 1px 10px rgb(235, 235, 235);
+  }
 
-.add {
+  .add {
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+  }
 
-.add address {
+  .add address {
     text-align: center;
     text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .abt {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+    width: 100%;
+    background: url(/images/main_big\ .png);
+    background-repeat: repeat-x;
+    background-position: center center;
+    font-family: 'light-Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .a-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .a-head h6 {
+    display: none;
+  }
+
+  .a-head h1 {
+    line-height: 60px;
+    font-family: 'Cocogoose-trial', sans-serif;
+    color: #ec5141;
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: -10px;
+    width: 60%;
+    text-align: center;
+  }
+
+  .a-head span {
+    border-bottom: 1px solid #ec5242;
+    width: 5%;
+  }
+
+  .a-paragraph {
+    text-align: justify;
+    border: 4px solid white;
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+    letter-spacing: -1px;
+    margin: 21px 0;
+    color: #565151;
+    font-family: 'light-Lato', sans-serif;
+  }
+
+  .add p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .add {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .add address {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 21px;
+  }
 }
