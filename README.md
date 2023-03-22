@@ -107,14 +107,11 @@ In order to run this project you need:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@GhostEsso](https://github.com/GhostEsso)
 - Twitter: [@TambanaEssohana](https://twitter.com/TambanaEssohana)
 - LinkedIn: [Tambana Essohanam](https://www.linkedin.com/in/essohanam-tambana-62aa081a1/)
-- Credit: [Cindy Shin](https://www.behance.net/adagio07)
 
 <!-- FUTURE FEATURES -->
 
